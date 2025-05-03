@@ -1,6 +1,6 @@
 # Project Description: **Digital Multimeter (DMM) with AVR Microcontroller**
 
-This project implements a Digital Multimeter (DMM) using an AVR microcontroller (likely ATmega32). It measures voltage (AC/DC), current, and resistance, with results displayed on an LCD. User interaction is handled via a keypad for mode and range selection.
+This project implements a Digital Multimeter (DMM) using an AVR microcontroller. It measures voltage (AC/DC), current, and resistance, with results displayed on an LCD. User interaction is handled via a keypad for mode and range selection.
 
 ## Core Modules
 - ADC Driver
