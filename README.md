@@ -5,26 +5,26 @@ This project implements a Digital Multimeter (DMM) using an AVR microcontroller.
 ## Core Modules
 - ADC Driver
 
-1. Supports polling and interrupt modes.
+    1. Supports polling and interrupt modes.
 
-2. Configurable reference voltage (AVCC, AREF, internal 2.56V) and prescaler.
+    2. Configurable reference voltage (AVCC, AREF, internal 2.56V) and prescaler.
 
-3. Used for analog signal acquisition in voltmeter, ammeter, and ohmmeter circuits.
+    3. Used for analog signal acquisition in voltmeter, ammeter, and ohmmeter circuits.
 
 - GPIO Driver
-1. Manages pin direction (input/output), read/write operations, and toggling.
+    1. Manages pin direction (input/output), read/write operations, and toggling.
 
-2. Direct register access for PORT A/B/C/D.
+    2. Direct register access for PORT A/B/C/D.
 
 - Keypad Driver
-1. Supports 4x4 or 4x3 matrix keypad with pull-up/pull-down configurability.
+    1. Supports 4x4 or 4x3 matrix keypad with pull-up/pull-down configurability.
 
-2. Scans rows/columns to detect key presses and maps them to characters/numbers.
+    2. Scans rows/columns to detect key presses and maps them to characters/numbers.
 
 - LCD Driver
-1. 4-bit mode for displaying measurements (voltage, current, resistance).
+    1. 4-bit mode for displaying measurements (voltage, current, resistance).
 
-2. Functions for cursor control, string/number formatting, and screen clearing.
+    2. Functions for cursor control, string/number formatting, and screen clearing.
 
 ## Measurement Modes
 
